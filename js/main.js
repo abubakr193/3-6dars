@@ -3,17 +3,17 @@ var userCoast = prompt("Mablag'ingizni kiriting...", );
 
 
 // Travel expenses
-var TICKETPRICE = 500;
-var HOTELPAYMENT = 250;
-var FORMUSEUM = 120;
+var ticketPrice = 500;
+var hotelPayment = 250;
+var forMuseum = 120;
 
 // Course currency
 var courseDollar = 9433.34;
 var courseEur = 10354.03;
 
 // Total Coast
-var totalDollarCoast = (Math.round(TICKETPRICE + HOTELPAYMENT) * courseDollar);
-var toralEurCoast = (Math.round(FORMUSEUM * courseEur));
+var totalDollarCoast = (Math.round(ticketPrice + hotelPayment) * courseDollar);
+var toralEurCoast = (Math.round(forMuseum * courseEur));
 var totalCoast = (Math.round(totalDollarCoast + toralEurCoast));
 
 console.log(totalCoast);
